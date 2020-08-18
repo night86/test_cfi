@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div class="row results">
+    <div class="row results" style="display: none;">
         <div class="col-md-12">&nbsp;</div>
         <div class="col-md-12">
             <table class="table table-bordered table-striped">
@@ -68,7 +68,6 @@
                 }).done(function(data){
                     $('#results').append(data);
                     $('.results').show();
-
                 });
             }
             else {
